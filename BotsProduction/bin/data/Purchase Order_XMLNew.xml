@@ -1,0 +1,1061 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Raju Surapuraju</Author>
+  <LastAuthor>Raju Surapuraju</LastAuthor>
+  <Created>2019-01-04T12:28:13Z</Created>
+  <LastSaved>2019-01-04T16:42:10Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6880</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Purchase Order">
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="267" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Width="142"/>
+   <Column ss:Width="143"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="53"/>
+   <Column ss:Index="9" ss:Width="182.5"/>
+   <Column ss:Index="11" ss:Width="188.5"/>
+   <Column ss:Index="17" ss:Width="58" ss:Span="1"/>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s16"><Data ss:Type="String">PURCHASE ORDER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Supplier</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">Delivery Address</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BSS - Dartford</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">J S Wright &amp; Co Ltd c/o Hill Partnership</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Unit 11, Orbital</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">The Reach, Battery Road</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Green Street</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String"> London</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Dartford</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">SE28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DA1 1QG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Fax: 01322 289149</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Supplier No.</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">Order Number</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s16"><Data ss:Type="String">JST/50061/9584</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Reference</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">57/05160</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">Order Date</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s16"><Data ss:Type="String">03/10/18</Data></Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Contract</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">9584 - The Reach, Plumbstead</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">Order Description</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s16"><Data ss:Type="String">57/05160  - 2.0 STL X 30MM KOOLPHEN </Data></Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:Index="11" ss:StyleID="s16"><Data ss:Type="String">BLOCK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Manufacturer</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">Date Required</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s16"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s16"><Data ss:Type="String">Placed By</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s16"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Section not specified</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Location not specified</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Sublevel not specified</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Catalogue No.</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Order Qty.</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Unit Price</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Extension</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Date Req'd.</Data></Cell>
+   </Row>
+   <Row ss:Index="36">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">2.0 STL X 30MM </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">19049843</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£11.45</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£84.42</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">KOOLPHEN BLOCK</Data></Cell>
+   </Row>
+   <Row ss:Index="39">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">120MM BOSS 2PC </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">19300406</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£2.54</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£21.78</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">UNLINED CLIP 116/126MM </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">M8/M10 ULXL120 BSF</Data></Cell>
+   </Row>
+   <Row ss:Index="43">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">1.25 STL X 25MM </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">19043041</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£5.48</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£40.50</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">KOOLPHEN BLOCK</Data></Cell>
+   </Row>
+   <Row ss:Index="46">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">80MM BOSS 2PC UNLINED </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">19300365</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£1.92</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£16.38</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">CLIP 91/98MM M8/M10 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ULXL080 BSF</Data></Cell>
+   </Row>
+   <Row ss:Index="50">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">35MM BOSS 2PC LINED </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">19300055</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£0.82</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£3.90</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">CLIP 33/37MM M8/M10 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">RLXL035 BSI</Data></Cell>
+   </Row>
+   <Row ss:Index="54">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS 3M D10G SCREWED </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">19010980</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£14.01</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£18.62</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ROD 70043</Data></Cell>
+   </Row>
+   <Row ss:Index="57">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS M10 HEX FULL NUTS </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">7601142</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£0.84</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£8.00</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BZP DIN934 GRADE 8.8 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">425171 7</Data></Cell>
+   </Row>
+   <Row ss:Index="61">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS M10 STEEL </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">7602314</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£0.52</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£6.00</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">WASHERS</Data></Cell>
+   </Row>
+   <Row ss:Index="64">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">WARRIOR M10 SQUARE </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">18805792</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£2.53</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£18.00</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">PLATE WASHER CC101/10</Data></Cell>
+   </Row>
+   <Row ss:Index="67">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">WARRIOR M10 PLAIN RAIL </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">18805674</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£2.05</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£14.00</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">NUT CC100/10P</Data></Cell>
+   </Row>
+   <Row ss:Index="70">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">WARRIOR 41X41X600 </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">18806407</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£103.73</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£87.12</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">CANTILEVER ARM </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">CC144/600</Data></Cell>
+   </Row>
+   <Row ss:Index="74">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS 41X41X2.5 PG PL 6M </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">18800022</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£223.06</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£44.62</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">RAIL BS69461988</Data></Cell>
+   </Row>
+   <Row ss:Index="77">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32X15MM (1.1/4X1/2&quot;) 131 </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021357</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£25.15</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£34.20</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BLK TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="80">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25MM 400 SIGHT FLOW </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">82010050</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£179.41</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£143.53</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">INDICATOR GM 170320-1 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">PADDLE TYPE BSPT</Data></Cell>
+   </Row>
+   <Row ss:Index="84">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32X25MM (1.1/4X1&quot;) 145 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">13023874</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£6.35</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£4.58</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HEX NIPPLE CRANE</Data></Cell>
+   </Row>
+   <Row ss:Index="87">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DN32 BOSS 902H PICV </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">21910083</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£401.04</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£210.55</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DYNAMIC HIGH FLOW </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">VENTURI VVE FXF 1521</Data></Cell>
+   </Row>
+   <Row ss:Index="91">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32MM (1.1/4 ) 340 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14037375</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£18.26</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£24.84</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">UNION GF</Data></Cell>
+   </Row>
+   <Row ss:Index="94">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32X15MM (1.1/4X1/2&quot;) 131 </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021357</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£25.15</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£25.65</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BLK TEE</Data></Cell>
+   </Row>
+   <Row ss:Index="97">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32MM (1.1/4&quot;) 131 BLK TEE </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14020964</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£22.59</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£15.36</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">GF</Data></Cell>
+   </Row>
+   <Row ss:Index="100">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32MM 966SRL BOSS NP </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">37184259</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£65.26</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£179.50</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BALL VALVE BRASS F/B </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BSPT WRAS</Data></Cell>
+   </Row>
+   <Row ss:Index="104">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32MM BOSS 47N BZE Y-</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">23010637</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£286.28</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£51.53</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">STRAINER 20MESH S/S </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DY3-32-20</Data></Cell>
+   </Row>
+   <Row ss:Index="108">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32X25MM (1.1/4X1 ) 240 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14027369</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£6.84</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£2.33</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">SOCKET GF</Data></Cell>
+   </Row>
+   <Row ss:Index="111">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50X25MM (2X1&quot;) 131 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021464</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£44.38</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£30.18</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="114">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25MM 966LS BOSS NP </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">37184525</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£45.24</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£62.20</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BALL VALVE BRASS F/B </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BSPT WRAS</Data></Cell>
+   </Row>
+   <Row ss:Index="118">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25MM 966SRL BOSS NP </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">37184248</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£41.87</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£23.02</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BALL VALVE BRASS F/B </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BSPT WRAS</Data></Cell>
+   </Row>
+   <Row ss:Index="122">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25MM BOSS 47N BZE Y-</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">23010626</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£191.14</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£34.41</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">STRAINER 20MESH S/S </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DY3-25-20</Data></Cell>
+   </Row>
+   <Row ss:Index="126">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25MM (1&quot;) 131 BLK TEE GF</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14020953</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£15.48</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£15.78</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row ss:Index="128">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25X15MM (1X1/2&quot;) 131 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021335</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£14.50</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£9.86</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="131">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM (2&quot;) 2A BLK S BEND </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14011277</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£24.44</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£166.20</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">GF</Data></Cell>
+   </Row>
+   <Row ss:Index="134">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32MM (1.1/4&quot;) 2A BLK S </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14011255</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£13.01</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£97.24</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BEND GF</Data></Cell>
+   </Row>
+   <Row ss:Index="137">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40MM (1.1/2&quot;) 2A BLK S </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14011266</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£17.36</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£94.40</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BEND GF</Data></Cell>
+   </Row>
+   <Row ss:Index="140">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25MM (1&quot;) 2A BLK S BEND </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14011244</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£7.16</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£34.02</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">GF</Data></Cell>
+   </Row>
+   <Row ss:Index="143">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS 1/2 MINIVENT C/W </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">25029137</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£48.04</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£57.64</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ISO VVE</Data></Cell>
+   </Row>
+   <Row ss:Index="146">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">15MM 966SRL BOSS NP </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">37184226</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£18.45</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£60.84</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BALL VALVE BRASS F/B </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BSPT WRAS</Data></Cell>
+   </Row>
+   <Row ss:Index="150">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">15MM (1/2) BLK HVY </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">11013643</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£4.59</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£11.00</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BARREL NIPPLE 6W</Data></Cell>
+   </Row>
+   <Row ss:Index="153">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">25MM (33.7X4.0) RED HVY </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">10030232</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£12.79</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£100.80</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">SS EN10255/EN10217 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">INSTALL PLUS</Data></Cell>
+   </Row>
+   <Row ss:Index="157">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">32MM (42.4X4.0) RED HVY </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">10030243</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£15.89</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£162.76</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">SS EN10255/EN10217 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">INSTALL PLUS</Data></Cell>
+   </Row>
+   <Row ss:Index="161">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40MM (48.3X4.0) RED HVY </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">10030254</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£18.55</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£94.90</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">SS EN10255/EN10217 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">INSTALL PLUS</Data></Cell>
+   </Row>
+   <Row ss:Index="165">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM (60.3X4.5) RED HVY </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">10030265</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£25.83</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£600.03</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">SS EN10255/EN10217 </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">INSTALL PLUS</Data></Cell>
+   </Row>
+   <Row ss:Index="169">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50X40MM (2X1.1/2&quot;) 131 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021486</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£65.46</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£133.56</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="172">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM (2 ) 130 BLK TEE GF</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14016413</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£22.07</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£22.50</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row ss:Index="174">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">65MM (2.1/2) PN6 (BS4504 </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">15130073</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£35.43</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£31.86</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">6/4) SCD FLG EN1092-1/13</Data></Cell>
+   </Row>
+   <Row ss:Index="177">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">65MM ASB.FREE GASKET </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">84069172</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£3.28</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£4.92</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">IBC PN6  1.5MM THICK TO </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BS7531X</Data></Cell>
+   </Row>
+   <Row ss:Index="181">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">65MM (2.1/2) BLK HVY </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">11013706</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£29.29</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£21.06</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BARREL NIPPLE 6W</Data></Cell>
+   </Row>
+   <Row ss:Index="184">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">65X40MM (2.1/2X1.1/2&quot;) 240 </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14027572</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£26.89</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£54.84</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BLK SOCKET GF</Data></Cell>
+   </Row>
+   <Row ss:Index="187">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40MM 966SRL BOSS NP </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">37184270</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£89.19</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£220.77</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BALL VALVE BRASS F/B </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BSPT WRAS</Data></Cell>
+   </Row>
+   <Row ss:Index="191">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40MM BOSS 900SH </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">22073251</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£264.90</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£417.21</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">VENTURI VALVE  HIGH </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">FLOW SCREWED BSP </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">13795</Data></Cell>
+   </Row>
+   <Row ss:Index="196">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40X15MM (1.1/2X1/2 ) 131 </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021390</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£24.50</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£74.97</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BLK TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="199">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40MM (1.1/2 ) 340 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14037386</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£20.61</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£42.06</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">UNION GF</Data></Cell>
+   </Row>
+   <Row ss:Index="202">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40MM (1.1/2) BLK HVY </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">11013687</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£11.02</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£39.60</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BARREL NIPPLE 6W</Data></Cell>
+   </Row>
+   <Row ss:Index="205">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM 966SRL BOSS NP </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">37184281</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£138.96</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£229.26</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BALL VALVE BRASS F/B </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BSPT WRAS</Data></Cell>
+   </Row>
+   <Row ss:Index="209">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM (2&quot;) 291 BLK PLUG </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14034391</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£8.24</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£5.60</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">PLAIN HOLLOW GF</Data></Cell>
+   </Row>
+   <Row ss:Index="212">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM 113S BZE CHECK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">22066059</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£501.80</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£85.31</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">VVE BSPT SWING TYPE </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">PN25 METAL SEAT NEW</Data></Cell>
+   </Row>
+   <Row ss:Index="216">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50X32MM (2X1.1/4&quot;) 131 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021475</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£55.88</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£38.00</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="219">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM BOSS 900SH </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">22073262</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£382.92</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£201.03</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">VENTURI VALVE HIGH </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">FLOW SCREWED BSP </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">13796</Data></Cell>
+   </Row>
+   <Row ss:Index="224">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50X15MM (2X1/2&quot;) 131 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14021025</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£45.46</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£15.46</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">PIT TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="227">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM 25SM BZE GATE </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">22065485</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£386.62</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£65.73</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">VVE WH PN20 BOSS NEW</Data></Cell>
+   </Row>
+   <Row ss:Index="230">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM BOSS 47N BZE Y-</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">23010659</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£641.60</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£1,154.90</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">STRAINER 0.8MM PERF </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">S/S DY3-50-20</Data></Cell>
+   </Row>
+   <Row ss:Index="234">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM (2&quot;) 131 BLK TEE GF</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14020986</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£49.03</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£100.02</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row ss:Index="236">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM (2) BLK HVY BARREL </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">11013698</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£15.65</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£37.60</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">NIPPLE  6W</Data></Cell>
+   </Row>
+   <Row ss:Index="239">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS 50MM SCREWED </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">48040965</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£166.55</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£166.56</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">UNTIED PUMP FLEX EPDM</Data></Cell>
+   </Row>
+   <Row ss:Index="242">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50X32MM (2X1.1/4&quot;) 130 BLK </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">14017193</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£23.16</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£15.74</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TEE GF</Data></Cell>
+   </Row>
+   <Row ss:Index="245">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">160M LOCTITE 55 THREAD </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">84650661</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£9.99</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£99.90</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">SEAL CORD  270153</Data></Cell>
+   </Row>
+   <Row ss:Index="248">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">40MM BOSS 901SS </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">22074050</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£203.97</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£321.24</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DOUBLE REG VVE STD </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">FLOW SCREWED BSP </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">13819</Data></Cell>
+   </Row>
+   <Row ss:Index="253">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">50MM BOSS 901SS </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">22074061</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£278.82</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£146.38</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DOUBLE REG VVE STD </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">FLOW SCREWED BSP </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">13820</Data></Cell>
+   </Row>
+   <Row ss:Index="258">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS M10X150 EYE BOLTS </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">18804233</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£16.12</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£8.10</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BZP</Data></Cell>
+   </Row>
+   <Row ss:Index="261">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">BOSS M10 HEX STUDDING </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">7622252</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£3.78</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£1.90</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">CONN BZP</Data></Cell>
+   </Row>
+   <Row ss:Index="264">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">100MM BOSS 16LSB DI </Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="Number">36530734</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s16"><Data ss:Type="String">£664.96</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£292.58</Data></Cell>
+    <Cell ss:Index="18" ss:StyleID="s16"><Data ss:Type="String">04/10/18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">B/FLY LUGG PN16 S/S </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DISC L/OP BUNA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="13" ss:StyleID="s16"><Data ss:Type="String">Total:</Data></Cell>
+    <Cell ss:Index="16" ss:StyleID="s16"><Data ss:Type="String">£6,759.35</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>23</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

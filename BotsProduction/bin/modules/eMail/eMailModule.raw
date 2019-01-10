@@ -1,0 +1,35 @@
+for n from 1 to 1
+{
+py import os
+py import configparser
+py os.startfile("outlook")
+vision import ConfigParser
+vision config = ConfigParser.ConfigParser()
+vision config.read('C:\\config\\config.ini')
+vision varEMailFile = config.get('Reports', 'reportEMail')
+vision tempEMFH = open(varEMailFile, 'r')
+vision tempEMString = tempEMFH.read()
+vision tempEMFH.close()
+wait 10
+click NewMail.png
+enter To.png as raju.surapuraju@causeway.com
+vision type(Key.TAB)
+enter Subject.png as Invoices processed Today for JSWright
+vision type(Key.TAB)
+vision type("Hi Raju Surapuraju")
+vision type(Key.ENTER)
+vision type(Key.ENTER)
+//vision type("We have processed the following Invoices Today for JSWright bearing Catalogue Number:_______________________ ")
+vision type("We have processed the following Invoices Today for JSWright bearing Catalogue Number: " + str(tempEMString))
+//vision varBodyString = "We have processed the following Invoices Today for JSWright bearing Catalogue Number: " + array_catalogueNumber[n]
+//vision type(varBodyString)
+vision type(Key.ENTER)
+vision type(Key.ENTER)
+vision type(Key.ENTER)
+vision type("Thanks")
+vision type(Key.ENTER)
+vision type("Raju Surapuraju")
+click Send.png
+wait 10
+py os.system("taskkill /f /im outlook.exe")
+}

@@ -1,0 +1,56 @@
+for n from 1 to 1
+{
+	py import os
+	py import configparser
+	wait 10
+	py os.startfile("outlook")
+	
+	vision import ConfigParser
+	vision config = ConfigParser.ConfigParser()
+	vision config.read('C:\\config\\config.ini')
+	//vision config.read('D:\BotsProduction\bin\config\config.ini')
+	vision varEMailFile = config.get('Reports', 'reportEMail')
+	vision tempEMFH = open(varEMailFile, 'r') 
+	vision tempEMString = tempEMFH.read()
+	vision tempEMFH.close()
+	
+	wait 6
+	
+	vision wait("NewMail.png", FOREVER)
+	click NewMail.png
+	//enter To.png as raju.surapuraju@causeway.com;Mathew.Jacob@causeway.com;Anand.Ravi@causeway.com;Shyam.Emmadi@causeway.com;Komal.Chowdhary@causeway.com;Ganapati.Hegde@causeway.com;Siva.Sankar@causeway.com
+	enter To.png as raju.surapuraju@causeway.com
+	vision type(Key.TAB)
+	enter Subject.png as Invoices processed today for JSWright
+	vision type(Key.TAB)
+	vision type("Hi JSWright")
+	vision type(Key.ENTER)
+	vision type(Key.ENTER)
+	vision type("We have processed the following Invoices today for JSWright: " )
+	vision type(Key.ENTER)
+	vision type(Key.ENTER)
+	vision type("=>: " + str(tempEMString))
+	vision type(Key.ENTER)
+	vision type(Key.ENTER)
+	vision type("Click for chart: http://bg-availability/BotsREports/JSWrightInvoices.html")
+	vision type(Key.ENTER)
+	vision type(Key.ENTER)
+	vision type("Thanks")
+	vision type(Key.ENTER)
+	vision type("Causeway Technologies")
+	vision type(Key.ENTER)
+	vision type("@Invoice Update Bot")
+	click Send.png
+	vision waitVanish("Send.png", FOREVER)
+	
+	wait 15
+	//click eMailFile.png
+	//click eMailExit.png
+	//wait 5
+	py os.system("taskkill /f /im outlook.exe")
+	
+}
+
+
+
+

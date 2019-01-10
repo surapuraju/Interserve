@@ -1,0 +1,153 @@
+for n from 1 to 1
+{
+	py import os
+	py import configparser
+	
+	py settings = configparser.ConfigParser()
+	py settings._interpolation = configparser.ExtendedInterpolation()
+	py settings.read('C:\config\config.ini')
+	
+	vision import ConfigParser
+	vision config = ConfigParser.ConfigParser()
+	vision config.read('C:\\config\\config.ini')
+	
+	py varUserName = settings.get('Login', 'UserName')
+	py print(varUserName)
+	varUserName = py_result
+	echo varUserName
+	
+	py varPassword = settings.get('Login', 'Password')
+	py print(varPassword)
+	varPassword = py_result
+	echo varPassword
+	
+	py varApplication = settings.get('App', 'appLocation')
+	py print(varApplication)
+	varApplication = py_result
+	echo varApplication
+	
+	py varCiteXMLData = settings.get('InputData', 'citeXMLDataRunner')
+	py print(varCiteXMLData)
+	varCiteXMLData = py_result
+	echo varCiteXMLData
+	
+	py varBusinessProcessLog = settings.get('Logs', 'businessProcessLog')
+	py print(varBusinessProcessLog)
+	varBusinessProcessLog = py_result
+	echo varBusinessProcessLog
+
+	py varAnalyticsProcessLog = settings.get('Logs', 'analyticsProcessLog')
+	py print(varAnalyticsProcessLog)
+	varAnalyticsProcessLog = py_result
+	echo varAnalyticsProcessLog
+	
+	py varCiteCSVData = settings.get('InputData', 'citeCSVData')
+	py print(varCiteCSVData)
+	varCiteCSVData = py_result
+	echo varCiteCSVData
+
+	py varTempFileLocation = settings.get('Temp', 'tempFileLocation')
+	py print(varTempFileLocation)
+	varTempFileLocation = py_result
+	echo varTempFileLocation
+	
+	py varReportHTMLRunner = settings.get('Reports', 'reportHTMLRunner')
+	py print(varReportHTMLRunner)
+	varReportHTMLRunner = py_result
+	echo varReportHTMLRunner
+	
+	// Launch Trimble Job Costing Module
+	//py os.system(varApplication)
+	//py os.system(varCiteXMLData)
+	
+	logTraceFile = varBusinessProcessLog
+	logAnalysis = varAnalyticsProcessLog
+	
+	echo logTraceFile
+	echo logAnalysis
+	
+	array_invoiceNumber = []
+	array_catalogueNumber = []
+	array_catalogueLineNumber = []
+	array_catalogueLineQuantity = []
+	csv_file = varCiteCSVData
+	load '+csv_file+' to lines
+	 
+	array_lines = lines.split('\n')
+		 
+	for (n=0; n<array_lines.length; n++) 
+	{
+	  items = array_lines[n].split(',')  
+	  array_invoiceNumber[n] = items[0].trim()
+	  array_catalogueNumber[n] = items[1].trim()
+	  array_catalogueLineNumber[n] = items[2].trim()
+	  array_catalogueLineQuantity[n] = items[3].trim()
+	}
+
+	for (n=0; n<array_lines.length; n++) 
+	{	  
+	  click QuantityButton.png
+	  for (data=0; data<array_catalogueLineNumber[n]; data++) 
+	  {
+		vision type(Key.DOWN)	
+		
+		//vision_step("'" +array_catalogueNumber[n]+ "'")
+		//vision type(array_catalogueNumber[n])
+	  }
+	  	  
+	  catalogueLineQuantityW = array_catalogueLineQuantity[n]
+	  dump catalogueLineQuantityW to tempQty.txt
+	  
+	  //close("C:\\config\\tempQty.txt")
+	  
+	  //Navigate Trimble Job Costing to access Invoice Panel
+	  //Enter Invoice Number and search to get it displayed to update quantity
+	  
+	  //vision begin
+	  //vision import ConfigParser
+	  //vision config = ConfigParser.ConfigParser()
+	  //vision config.read('D:\\BotsProduction\\bin\\config\\config.ini')
+	  vision varTempFile = config.get('Temp', 'tempFileLocation')
+	  vision tempFH = open(varTempFile, 'r') 
+	  vision tempVar = tempFH.read()
+	  vision tempFH.close()
+	  vision type(tempVar)
+			 
+	  //type CellButton.png as '+catalogueLineQuantityW+'
+	  vision type(Key.ENTER)
+	  //vision finish
+	  
+	  logTraceString = Date().toLocaleString() + " Invoice Number: = " + array_invoiceNumber[n] + " Catelogue Number: = " + array_catalogueNumber[n] + " Catalogue Line Number: = " + array_catalogueLineNumber[n] + " Catalogue Line Quantity: = " + array_catalogueLineQuantity[n] + " Processed by Bot"
+	  logAnalysisString = array_invoiceNumber[n] + "," + array_catalogueNumber[n] + "," + array_catalogueLineNumber[n] + "," + array_catalogueLineQuantity[n] 
+
+	  write logTraceString to '+logTraceFile+'
+	  //vision_step('array_catalogueNumber[n] = "' + array_catalogueNumber[n] + '"')
+	  //vision type(array_catalogueNumber[n])
+	  //tagui D:\RPA\explore\Modules\eMail\eMailModule
+	  
+	  load '+logAnalysis+' to temp
+	  if (temp.length == 0)
+	  {
+		DataAnalysisHeader = "Invoice,Catalogue,InvoiceLineNumber,InvoiceLineQuantity"
+		write DataAnalysisHeader to '+logAnalysis+'
+		write logAnalysisString to '+logAnalysis+'
+	  }
+	  else
+	  {
+		write logAnalysisString to '+logAnalysis+'
+	  }
+	  
+	}	
+	
+	py os.system(varReportHTMLRunner)
+	wait 10
+	//py os.system("taskkill /f /im excel.exe")
+	//vision closeApp("excel")
+	
+	//vision closeApp("Chrome")
+	py os.system("taskkill /f /im chrome.exe")
+	
+	//wait 10
+	//tagui C:\BotsProduction\bin\modules\eMail\eMailModule
+}
+tagui C:\BotsProduction\bin\modules\eMail\eMailModule

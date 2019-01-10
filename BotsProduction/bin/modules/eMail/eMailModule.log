@@ -1,0 +1,36 @@
+[starting sikuli process] 
+
+START - automation started - Wed Dec 26 2018 09:12:51 GMT+0530 (India Standard Time)
+
+py import os
+py import configparser
+py os.startfile("outlook")
+vision import ConfigParser
+vision config = ConfigParser.ConfigParser()
+vision config.read('C:\\config\\config.ini')
+vision varEMailFile = config.get('Reports', 'reportEMail')
+vision tempEMFH = open(varEMailFile, 'r')
+vision tempEMString = tempEMFH.read()
+vision tempEMFH.close()
+wait 10
+click D:/RPA/explore/Modules/eMail/NewMail.png
+enter D:/RPA/explore/Modules/eMail/To.png as raju.surapuraju@causeway.com
+vision type(Key.TAB)
+enter D:/RPA/explore/Modules/eMail/Subject.png as Invoices processed Today for JSWright
+vision type(Key.TAB)
+vision type("Hi Raju Surapuraju")
+vision type(Key.ENTER)
+vision type(Key.ENTER)
+vision type("We have processed the following Invoices Today for JSWright bearing Catalogue Number: " + str(tempEMString))
+vision type(Key.ENTER)
+vision type(Key.ENTER)
+vision type(Key.ENTER)
+vision type("Thanks")
+vision type(Key.ENTER)
+vision type("Raju Surapuraju")
+click D:/RPA/explore/Modules/eMail/Send.png
+wait 10
+py os.system("taskkill /f /im outlook.exe")
+
+FINISH - automation finished - 70.0s
+
